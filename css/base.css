@@ -9,13 +9,6 @@ body {
     font-family: Helvetica, Georgia, Arial;
 }
 
-img {
-    
-    margin:20 20 5 25; /* TRouBLe */
-    float:right;
-    width:25%
-}
-
 header {
     border:5px;
     line-height:5px;
@@ -28,17 +21,18 @@ header {
 }
 
 header h1 {
-    font-size:60px;
+    font-size:48px;
     font-weight:100;
-    line-height:82px;
+    line-height:62px;
+    text-align:center;
 }
 
 header nav {
     text-align:center;
     background-color:#fff;
-    padding-bottom:5px;
-    padding-top:5px;
-    line-height:28px;
+    padding-bottom:0px;
+    padding-top:10px;
+    line-height:22px;
 }
 
 header nav a {
@@ -48,7 +42,6 @@ header nav a {
     text-decoration:none;
     font-size:18px;
     margin-right:130px;
-    padding:5px 5px 5px 5px;
     text-align:center;
     font-family: Helvetica, Georgia, Arial;
 }
@@ -64,10 +57,7 @@ article {
     font-family:Arial, Georgia, Helvetica
     font-size:12px;
     text-align:left;
-    margin-left:100px;
-    margin-right:100px;
-    padding:15px 25px 15px 25px;
-    border:5px solid #717F73;
+    padding:10px 25px 15px 25px;
 }
 
 article p{
@@ -83,9 +73,10 @@ footer {
     background-color:#fff;
     color:#717F73;
     font-family:Helvetica, Georgia, Arial;
+    text-align: center;
     padding-bottom:10px;
     padding-top:10px;
-    margin:0 50px 0 50px;
+    margin: 0px 50px 0px 50px;
 }
 
 footer p {
@@ -110,4 +101,23 @@ footer a {
 
 footer a:hover {
     color:#5B9C64;
+}
+
+@media screen (max-width: 600px) {
+    
+    body {
+        padding: 5%;
+        
+    }
+    
+    nav {
+        width: 90%;
+        padding-left: 0;
+    }
+    
+    #content {
+        clear: left;
+        margin-left: 0;
+        width: 95%;
+    }
 }
