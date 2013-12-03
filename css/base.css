@@ -1,24 +1,26 @@
 body
 {
-background-color:#EFFFCD;
+background-color:#FFFFFF;
+font-family:'Quicksand', sans-serif;
 }
 
 h1
 {
 font-family:'Quicksand', sans-serif;
-color:#2E2633;
+color:#FFFFFF;
 text-align:center;
-background: #EFFFCD; /*transparent or color*/
+background: #464D70; /*transparent or color*/
+padding: 22px;
 }
 
 nav
 {
 font-family:'Quicksand', sans-serif;
 font-size:20px;
-color: orange;
+color: #FFFFFF;
 text-align:center;
-background: #DCE9BE; /*transparent or color*/
-padding: 52px;
+background: #464D70; /*transparent or color*/
+padding: 22px;
 }
 
 h2
@@ -32,7 +34,7 @@ padding: -5px -5px -5px -5px;
 
 p
 {
-font-family:'Jacques Francois', serif;
+font-family:'Arvo', sans-serif;
 font-size:20px;
 text-align: justify;
 margin: 25px 25px 25px 25px; /* TRouBLe */
@@ -41,12 +43,35 @@ padding: -5px -5px -5px -5px;
 
 p.footer
 {
-color: orange;
+color: #FFFFFF;
 text-align: center;
-background: #DCE9BE; /*transparent or color*/
+background: #464D70; /*transparent or color*/
 }
 
+/*link colors*/
+nav
+a:link {color:#FFFFFF;}    /* unvisited link */
+a:visited {color:#FFFFFF;} /* visited link */
+a:hover {color:#A1AC88;}   /* mouse over link */
+a:active {color:#A1AC88;} /* selected link */
+}
+
+p.footer
 a:link {color:#FF0000;}    /* unvisited link */
 a:visited {color:teal;} /* visited link */
 a:hover {color:#FF00FF;}   /* mouse over link */
-a:active {color:#0000FF;}  /* selected link */
+a:active {color:#0000FF;} /* selected link */
+}
+
+p
+a:link {color:#FF0000;}    /* unvisited link */
+a:visited {color:teal;} /* visited link */
+a:hover {color:#FF00FF;}   /* mouse over link */
+a:active {color:#0000FF;} /* selected link */
+}
+
+/*link - underline vs not underlined*/
+/*a:link {text-decoration:none;}
+a:visited {text-decoration:none;}
+a:hover {text-decoration:underline;}
+a:active {text-decoration:underline;}*/ 
