@@ -47,7 +47,6 @@ font-weight: 700;
 font-size:25px;
 text-align:justify;
 margin: 25px 50px 25px 50px; /* TRouBLe */
-padding: -5px -5px -5px -5px;
 }
 
 h3
@@ -57,7 +56,6 @@ font-weight: 600;
 font-size:25px;
 text-align:justify;
 margin: 25px 50px 25px 50px; /* TRouBLe */
-padding: -5px -5px -5px -5px;
 }
 
 p
@@ -67,13 +65,11 @@ font-size:16px;
 font-weight:400;
 text-align: justify;
 margin: 25px 50px 25px 50px; /* TRouBLe */
-padding: -5px -5px -5px -5px;
 }
 
 iframe
 {
 margin: 5px 50px 5px 50px; /* TRouBLe */
-padding: 5px -5px -5px -5px;
 float:left;
 }
 
@@ -135,14 +131,12 @@ font-size:16px;
 font-weight:400;
 text-align: justify;
 margin: 25px 50px 25px 50px; /* TRouBLe */
-padding: -5px -5px -5px -5px;
 }
 
 nav.footer
 {
 font-size:16px;
 margin: 25px 25px 25px 25px; /* TRouBLe */
-padding: -5px -5px -5px -5px;
 }
 
 p.footer
