@@ -103,7 +103,7 @@ p a:hover {
      clear: both;
      text-align: center;
     align-content: center;
-    }
+    } 
 
 #video iframe{
     float: none;
@@ -117,8 +117,7 @@ p a:hover {
 }
 
 #video p{
-    color:;
-    line-height: 16px;
+    line-height: 25px;
     float: none;
     clear: both;
     margin: 0px 10% 50px 10%;
