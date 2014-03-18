@@ -73,12 +73,16 @@ margin: 5px 50px 5px 50px; /* TRouBLe */
 float:left;
 }
 
-.photo
+photo
 {
+display: flex;
+margin: auto;
+}
+/* {
 float:right;
 margin: -312px 25px 10px -10px;
 clear: right;
-}
+} */
 
 .containingbox p { margin-top: 0;}
 
