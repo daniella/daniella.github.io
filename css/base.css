@@ -86,15 +86,15 @@ clear: right;
 
 .containingbox p { margin-top: 0;}
 
-p a:link { /* unvisited link */
+p,h3 a:link { /* unvisited link */
     color:#000000;
     font-weight:700;
     text-decoration:underline;
     }
-p a:visited {
+p,h3 a:visited {
     color:#000000;
     }
-p a:hover {
+p,h3 a:hover {
     color:#7DB4B5;
     }
 
