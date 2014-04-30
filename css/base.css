@@ -86,15 +86,27 @@ clear: right;
 
 .containingbox p { margin-top: 0;}
 
-p,h3 a:link { /* unvisited link */
+p a:link { /* unvisited link */
     color:#000000;
     font-weight:700;
     text-decoration:underline;
     }
-p,h3 a:visited {
+p a:visited {
     color:#000000;
     }
-p,h3 a:hover {
+p a:hover {
+    color:#7DB4B5;
+    }
+    
+h3 a:link { /* unvisited link */
+    color:#000000;
+    font-weight:700;
+    text-decoration:underline;
+    }
+h3 a:visited {
+    color:#000000;
+    }
+h3 a:hover {
     color:#7DB4B5;
     }
 
