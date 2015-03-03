@@ -1,7 +1,9 @@
+/* This website is a work in progress. Please disregard my sort of messy code. :-) */
+
 body
 {
 background-color:#FFFFFF;
-font-family:'Quicksand', sans-serif;
+font-family:sans-serif;
 }
 
 h1
@@ -73,6 +75,7 @@ margin: 5px 50px 5px 50px; /* TRouBLe */
 float:left;
 }
 
+/* keeping this code as a placeholder for when I decide to add pictures 
 photo
 {
 display: flex;
@@ -135,11 +138,6 @@ h3 a:hover {
     margin: 0px 10% 50px 10%;
 }
 
-p.social
-{
-text-align:justify;
-}
-
 ul
 {
 font-family:'Merriweather', sans-serif;
@@ -174,23 +172,3 @@ p.footer a:visited {
 p.footer a:hover {
     color:#7DB4B5;
     }
-
-@media screen and (max-width: 700px) {
-    
-   * {
-       box-sizing: border-box;
-        margin: 0px;
-        padding: 0px;
-    }           
-    
-    * img {
-        max-width: 700px;
-    }   
-    
-    header {
-        float: none;
-        width: 100%;
-        padding: 0px;
-        margin: 0px;
-    }
-}
